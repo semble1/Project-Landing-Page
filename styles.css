@@ -1,0 +1,164 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    color: white;
+}
+
+.header {
+    display: flex;
+    padding-left: 160px;
+    padding-right: 160px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.header, .one, .footer {
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sub {
+    color: black;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    min-height: 300px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.top {
+    border: 0px;
+}
+
+.bottom {
+    border-color: white;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 36px;
+}
